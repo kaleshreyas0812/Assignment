@@ -1,671 +1,541 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mini_Project_1</title>
-    <style>
-      * {
-        margin: 0px;
-        padding: 0px;
-      }
 
-      .Header {
-        background-color: darkslateblue;
-        display: flex;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini_Project_1</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
 
-      .Main-Body {
-        display: flex;
-      }
+    .Header {
+      background-color: darkslateblue;
+      display: flex;
+    }
 
-      .Aside {
-        background-color: darkslateblue;
-        height: 500px;
-        width: 15%;
-        display: flex;
-      }
+    .Main-Body {
+      display: flex;
+    }
 
-      .Article {
-        width: 85%;
-      }
+    .Aside {
+      background-color: darkslateblue;
+      height: 500px;
+      width: 15%;
+      display: flex;
+    }
 
-      .Horizontal-Nav {
-        margin-left: 100px;
-      }
+    .Article {
+      width: 85%;
+    }
 
-      .Horizontal-Nav li {
-        list-style-type: none;
-        float: left;
-        margin: 40px 20px;
-        padding: 10px;
-        border: 2px solid white;
-        border-radius: 40px;
-        background-color: black;
-      }
+    .Horizontal-Nav {
+      margin-left: 100px;
+    }
 
-      .Horizontal-Nav li a {
-        color: aliceblue;
-        text-decoration: none;
-        font-size: 25px;
-      }
+    .Horizontal-Nav li {
+      list-style-type: none;
+      float: left;
+      margin: 40px 20px;
+      padding: 10px;
+      border: 2px solid white;
+      border-radius: 40px;
+      background-color: black;
+    }
 
-      .Horizontal-Nav li:hover {
-        background-color: gray;
-      }
+    .Horizontal-Nav li a {
+      color: aliceblue;
+      text-decoration: none;
+      font-size: 25px;
+    }
 
-      .Vertical-Nav {
-        margin-left: 20px;
-      }
+    .Horizontal-Nav li:hover {
+      background-color: gray;
+    }
 
-      .Vertical-Nav li {
-        list-style-type: none;
-        float: left;
-        margin: 15px 25px;
-        padding: 10px;
-        border: 2px solid white;
-        border-radius: 40px;
-        background-color: black;
-      }
+    .Vertical-Nav {
+      margin-left: 20px;
+    }
 
-      .Vertical-Nav li a {
-        color: aliceblue;
-        font-size: 20px;
-        text-decoration: none;
-      }
+    .Vertical-Nav li {
+      list-style-type: none;
+      float: left;
+      margin: 15px 25px;
+      padding: 10px;
+      border: 2px solid white;
+      border-radius: 40px;
+      background-color: black;
+    }
 
-      .Vertical-Nav li:hover {
-        background-color: gray;
-      }
+    .Vertical-Nav li a {
+      color: aliceblue;
+      font-size: 20px;
+      text-decoration: none;
+    }
 
-      .Headings {
-        background-color: lightcoral;
-        padding: 20px;
-        color: black;
-        width: 10%;
-        font-size: 30px;
-        text-align: center;
-        border: 2px solid white;
-      }
+    .Vertical-Nav li:hover {
+      background-color: gray;
+    }
 
-      .Heading-Contain {
-        background-color: black;
-        padding: 20px;
-        width: 90%;
-        color: white;
-        font-size: 30px;
-        border: 2px solid white;
-      }
+    .Headings {
+      background-color: lightcoral;
+      padding: 20px;
+      color: black;
+      width: 10%;
+      font-size: 30px;
+      text-align: center;
+      border: 2px solid white;
+    }
 
-      .button-join-now {
-        border: 2px solid black;
-        border-radius: 10px;
-        text-align: center;
-        padding: 10px;
-        margin-left: 80px;
-        margin-top: 5px;
-        background-color: black;
-        color: white;
-      }
+    .Heading-Contain {
+      background-color: black;
+      padding: 20px;
+      width: 90%;
+      color: white;
+      font-size: 30px;
+      border: 2px solid white;
+    }
 
-      .button-join-now:hover {
-        background-color: darkslateblue;
-      }
-      .Footer {
-        background-color: darkslateblue;
-        padding: 30px;
-        display: flex;
-      }
-    </style>
-  </head>
+    .button-join-now {
+      border: 2px solid black;
+      border-radius: 10px;
+      text-align: center;
+      padding: 10px;
+      margin-left: 80px;
+      margin-top: 5px;
+      background-color: black;
+      color: white;
+    }
 
-  <body>
-    <div>
-      <div class="Header">
-        <div style="margin: 13px 25px">
-          <img
-            src="./files/logo1.png"
-            alt="logo"
-            height="125px"
-            width="150px "
-          />
-        </div>
-        <div>
-          <ul class="Horizontal-Nav">
-            <li><a href="../Mini Projects/Pages/Lokmat.html">LOKMAT</a></li>
-            <li><a href="./Pages/samana.html">SAMANA</a></li>
-            <li><a href="../Mini Projects/Pages/Sakal.html">SAKAL</a></li>
-            <li><a href="../Mini Projects/Pages/Loksatta.html">LOKSATTA</a></li>
-            <li><a href="./Pages/MHtimes.html">MH TIMES</a></li>
-            <li><a href="./Pages/zunjar.html">ZUNJAR NETA</a></li>
-          </ul>
-        </div>
+    .button-join-now:hover {
+      background-color: darkslateblue;
+    }
+
+    .Footer {
+      background-color: darkslateblue;
+      padding: 30px;
+      display: flex;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="Header">
+      <div style="margin: 13px 25px">
+        <img src="./Images/logo1.png" alt="logo" height="125px" width="150px " />
       </div>
-      <div class="Main-Body">
-        <div class="Aside">
-          <ul class="Vertical-Nav">
-            <li><a href="../Mini Projects/Pages/Lokmat.html">LOKMAT</a></li>
-            <li><a href="./Pages/samana.html">SAMANA</a></li>
-            <li><a href="../Mini Projects/Pages/Sakal.html">SAKAL</a></li>
-            <li><a href="../Mini Projects/Pages/Loksatta.html">LOKSATTA</a></li>
-            <li><a href="./Pages/MHtimes.html">MH TIMES</a></li>
-            <li><a href="./Pages/zunjar.html">ZUNJAR NETA</a></li>
-          </ul>
+      <div>
+        <ul class="Horizontal-Nav">
+          <li><a href="./Pages/Lokmat.html">LOKMAT</a></li>
+          <li><a href="./Pages/samana.html">SAMANA</a></li>
+          <li><a href="./Pages/Sakal.html">SAKAL</a></li>
+          <li><a href="./Pages/Loksatta.html">LOKSATTA</a></li>
+          <li><a href="./Pages/MHtimes.html">MH TIMES</a></li>
+          <li><a href="./Pages/zunjar.html">ZUNJAR NETA</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="Main-Body">
+      <div class="Aside">
+        <ul class="Vertical-Nav">
+          <li><a href="./Pages/Lokmat.html">LOKMAT</a></li>
+          <li><a href="./Pages/samana.html">SAMANA</a></li>
+          <li><a href="./Pages/Sakal.html">SAKAL</a></li>
+          <li><a href="./Pages/Loksatta.html">LOKSATTA</a></li>
+          <li><a href="./Pages/MHtimes.html">MH TIMES</a></li>
+          <li><a href="./Pages/zunjar.html">ZUNJAR NETA</a></li>
+        </ul>
+      </div>
+      <div class="Article">
+        <div style="display: flex">
+          <div class="Headings">Headings:</div>
+          <div class="Heading-Contain">
+            <marquee behavior="alternate" direction="right">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolor,
+              excepturi.
+            </marquee>
+          </div>
         </div>
-        <div class="Article">
-          <div style="display: flex">
-            <div class="Headings">Headings:</div>
-            <div class="Heading-Contain">
-              <marquee behavior="alternate" direction="right">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolor,
-                excepturi.
-              </marquee>
+        <div style="display: flex">
+          <div style="width: 80%; border: 4px solid black">
+            <div style="
+                  width: 100%;
+                  height: 200px;
+                  border: 2px solid black;
+                  display: flex;
+                ">
+              <div style="
+                    width: 33.33%;
+                    height: 200px;
+                    border-right: 2px solid black;
+                  ">
+                <img src="./Images/sakal.png" alt="sakal" style="width: 100%; height: 150px" />
+                <a href="./Pages/Sakal.html" style="margin: 110px; font-size: 25px">Visit Now</a>
+              </div>
+              <div style="
+                    width: 33.33%;
+                    height: 200px;
+                    border-right: 2px solid black;
+                  ">
+                <img src="./Images/lokmat.png" alt="lokmat" style="width: 100%; height: 150px" />
+                <a href="./Pages/Lokmat.html" style="margin: 110px; font-size: 25px">Visit Now</a>
+              </div>
+              <div style="
+                    width: 33.33%;
+                    height: 200px;
+                    border-right: 2px solid black;
+                  ">
+                <img src="./Images/loksatta.png" alt="loksatta" style="width: 100%; height: 150px" />
+                <a href="./Pages/Loksatta.html" style="margin: 110px; font-size: 25px">Visit Now</a>
+              </div>
+            </div>
+            <div style="
+                  width: 100%;
+                  height: 200px;
+                  border: 2px solid black;
+                  display: flex;
+                ">
+              <div style="
+                    width: 33.33%;
+                    height: 200px;
+                    border-right: 2px solid black;
+                  ">
+                <img src="./Images/samana.png" alt="samana" style="width: 80%; height: 150px; margin-left: 30px" />
+                <a href="./Pages/samana.html" style="margin: 110px; font-size: 25px">Visit Now</a>
+              </div>
+              <div style="
+                    width: 33.33%;
+                    height: 200px;
+                    border-right: 2px solid black;
+                  ">
+                <img src="./Images/Mh_times.png" alt="Mh_times" style="width: 100%; height: 150px" />
+                <a href="./Pages/MHtimes.html" style="margin: 110px; font-size: 25px">Visit Now</a>
+              </div>
+              <div style="
+                    width: 33.33%;
+                    height: 200px;
+                    border-right: 2px solid black;
+                  ">
+                <img src="./Images/zunjar.png" alt="zunjar" style="width: 80%; height: 150px; margin-left: 30px" />
+                <a href="./Pages/zunjar.html" style="margin: 110px; font-size: 25px">Visit Now</a>
+              </div>
             </div>
           </div>
-          <div style="display: flex">
-            <div style="width: 80%; border: 4px solid black">
-              <div
-                style="
-                  width: 100%;
-                  height: 200px;
-                  border: 2px solid black;
-                  display: flex;
-                "
-              >
-                <div
-                  style="
-                    width: 33.33%;
-                    height: 200px;
-                    border-right: 2px solid black;
-                  "
-                >
-                  <img
-                    src="./files/sakal.png"
-                    alt="sakal"
-                    style="width: 100%; height: 150px"
-                  />
-                  <a
-                    href="../Mini Projects/Pages/Sakal.html"
-                    style="margin: 110px; font-size: 25px"
-                    >Visit Now</a
-                  >
-                </div>
-                <div
-                  style="
-                    width: 33.33%;
-                    height: 200px;
-                    border-right: 2px solid black;
-                  "
-                >
-                  <img
-                    src="./files/lokmat.png"
-                    alt="lokmat"
-                    style="width: 100%; height: 150px"
-                  />
-                  <a href="../Mini Projects/Pages/Lokmat.html" style="margin: 110px; font-size: 25px"
-                    >Visit Now</a
-                  >
-                </div>
-                <div
-                  style="
-                    width: 33.33%;
-                    height: 200px;
-                    border-right: 2px solid black;
-                  "
-                >
-                  <img
-                    src="./files/loksatta.png"
-                    alt="loksatta"
-                    style="width: 100%; height: 150px"
-                  />
-                  <a href="../Mini Projects/Pages/Loksatta.html" style="margin: 110px; font-size: 25px"
-                    >Visit Now</a
-                  >
-                </div>
-              </div>
-              <div
-                style="
-                  width: 100%;
-                  height: 200px;
-                  border: 2px solid black;
-                  display: flex;
-                "
-              >
-                <div
-                  style="
-                    width: 33.33%;
-                    height: 200px;
-                    border-right: 2px solid black;
-                  "
-                >
-                  <img
-                    src="./files/samana.png"
-                    alt="samana"
-                    style="width: 80%; height: 150px; margin-left: 30px"
-                  />
-                  <a href="./Pages/samana.html" style="margin: 110px; font-size: 25px"
-                    >Visit Now</a
-                  >
-                </div>
-                <div
-                  style="
-                    width: 33.33%;
-                    height: 200px;
-                    border-right: 2px solid black;
-                  "
-                >
-                  <img
-                    src="./files/Mh_times.png"
-                    alt="Mh_times"
-                    style="width: 100%; height: 150px"
-                  />
-                  <a href="./Pages/MHtimes.html" style="margin: 110px; font-size: 25px"
-                    >Visit Now</a
-                  >
-                </div>
-                <div
-                  style="
-                    width: 33.33%;
-                    height: 200px;
-                    border-right: 2px solid black;
-                  "
-                >
-                  <img
-                    src="./files/zunjar.png"
-                    alt="zunjar"
-                    style="width: 80%; height: 150px; margin-left: 30px"
-                  />
-                  <a href="./Pages/zunjar.html" style="margin: 110px; font-size: 25px"
-                    >Visit Now</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div
-              style="
+          <div style="
                 background-color: gray;
                 width: 20%;
                 height: 406px;
                 border: 4px solid black;
-              "
-            >
-              <form>
-                <h1 style="text-align: center; margin-top: 15px">JOIN NOW</h1>
-                <br /><br /><br />
-                <label for="Name" style="margin-left: 15px; font-size: 20px"
-                  >NAME:</label
-                >
-                <br /><br />
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Enter Your Name"
-                  style="
+              ">
+            <form>
+              <h1 style="text-align: center; margin-top: 15px">JOIN NOW</h1>
+              <br /><br /><br />
+              <label for="Name" style="margin-left: 15px; font-size: 20px">NAME:</label>
+              <br /><br />
+              <input type="text" name="name" id="name" placeholder="Enter Your Name" style="
                     margin-left: 25px;
                     border: 2px solid black;
                     text-align: center;
                     font-size: 15px;
-                  "
-                />
-                <br /><br />
-                <label for="Email" style="margin-left: 15px; font-size: 20px"
-                  >Email:</label
-                >
-                <br /><br />
-                <input
-                  type="email"
-                  name="Email"
-                  id="Email"
-                  placeholder="Enter Your Email"
-                  style="
+                  " />
+              <br /><br />
+              <label for="Email" style="margin-left: 15px; font-size: 20px">Email:</label>
+              <br /><br />
+              <input type="email" name="Email" id="Email" placeholder="Enter Your Email" style="
                     margin-left: 25px;
                     border: 2px solid black;
                     text-align: center;
                     font-size: 15px;
-                  "
-                />
-                <br /><br />
-                <label for="Contact" style="margin-left: 15px; font-size: 20px"
-                  >Contact:</label
-                >
-                <br /><br />
-                <input
-                  type="number"
-                  name="Contact"
-                  id="Contact"
-                  placeholder="Enter Your 10 digit no."
-                  style="
+                  " />
+              <br /><br />
+              <label for="Contact" style="margin-left: 15px; font-size: 20px">Contact:</label>
+              <br /><br />
+              <input type="number" name="Contact" id="Contact" placeholder="Enter Your 10 digit no." style="
                     margin-left: 25px;
                     border: 2px solid black;
                     text-align: center;
                     font-size: 15px;
-                  "
-                />
-                <br /><br />
-                <input type="submit" value="Join Now" class="button-join-now" />
-              </form>
-            </div>
+                  " />
+              <br /><br />
+              <input type="submit" value="Join Now" class="button-join-now" />
+            </form>
           </div>
         </div>
       </div>
     </div>
-    <br />
-    <br />
-    <hr style="border: 4px solid black" />
+  </div>
+  <br />
+  <br />
+  <hr style="border: 4px solid black" />
 
-    <h1 style="text-align: center; margin-top: 20px; font-size: 50px">
-      Trending
-    </h1>
-    <br /><br /><br />
-    <div style="display: flex">
-      <div style="width: 24%; margin: 10px">
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/4VPvYCzScZ0?si=PUc8-h4pawbL5Wut"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <br /><br />
-        <dl>
-          <dt style="color: red; font-size: 35px">News:</dt>
-          <dd style="margin-left: 20px">
-            <b
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Recusandae, doloremque?</b
-            >
-          </dd>
-        </dl>
-      </div>
-      <div style="width: 24%; margin: 10px">
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/4VPvYCzScZ0?si=PUc8-h4pawbL5Wut"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <br /><br />
-        <dl>
-          <dt style="color: red; font-size: 35px">News:</dt>
-          <dd style="margin-left: 20px">
-            <b
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Recusandae, doloremque?</b
-            >
-          </dd>
-        </dl>
-      </div>
-      <div style="width: 24%; margin: 10px">
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/4VPvYCzScZ0?si=PUc8-h4pawbL5Wut"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <br /><br />
-        <dl>
-          <dt style="color: red; font-size: 35px">News:</dt>
-          <dd style="margin-left: 20px">
-            <b
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Recusandae, doloremque?</b
-            >
-          </dd>
-        </dl>
-      </div>
-      <div style="width: 24%; margin: 10px">
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/4VPvYCzScZ0?si=PUc8-h4pawbL5Wut"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <br /><br />
-        <dl>
-          <dt style="color: red; font-size: 35px">News:</dt>
-          <dd style="margin-left: 20px">
-            <b
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Recusandae, doloremque?</b
-            >
-          </dd>
-        </dl>
-      </div>
+  <h1 style="text-align: center; margin-top: 20px; font-size: 50px">
+    Trending
+  </h1>
+  <br /><br /><br />
+  <div style="display: flex">
+    <div style="width: 24%; margin: 10px">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/4VPvYCzScZ0?si=PUc8-h4pawbL5Wut"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <br /><br />
+      <dl>
+        <dt style="color: red; font-size: 35px">News:</dt>
+        <dd style="margin-left: 20px">
+          <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Recusandae, doloremque?</b>
+        </dd>
+      </dl>
     </div>
-    <br /><br /><br />
+    <div style="width: 24%; margin: 10px">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/4VPvYCzScZ0?si=PUc8-h4pawbL5Wut"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <br /><br />
+      <dl>
+        <dt style="color: red; font-size: 35px">News:</dt>
+        <dd style="margin-left: 20px">
+          <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Recusandae, doloremque?</b>
+        </dd>
+      </dl>
+    </div>
+    <div style="width: 24%; margin: 10px">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/4VPvYCzScZ0?si=PUc8-h4pawbL5Wut"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <br /><br />
+      <dl>
+        <dt style="color: red; font-size: 35px">News:</dt>
+        <dd style="margin-left: 20px">
+          <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Recusandae, doloremque?</b>
+        </dd>
+      </dl>
+    </div>
+    <div style="width: 24%; margin: 10px">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/4VPvYCzScZ0?si=PUc8-h4pawbL5Wut"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <br /><br />
+      <dl>
+        <dt style="color: red; font-size: 35px">News:</dt>
+        <dd style="margin-left: 20px">
+          <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Recusandae, doloremque?</b>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <br /><br /><br />
 
-    <div style="display: flex">
-      <div style="width: 30%; margin: 10px">
-        <img src="./files/sale.jpg" alt="sale" width="100%" height="300px" />
-        <br /><br />
-        <h2>
-          <span style="color: red">Shopping:</span>Weekend Sale Has Sponsored By
-          Flipkart and Amazon Because....
-        </h2>
-      </div>
-      <div style="width: 30%; margin: 10px">
-        <img src="./files/sale.jpg" alt="sale" width="100%" height="300px" />
-        <br /><br />
-        <h2>
-          <span style="color: red">Shopping:</span>Weekend Sale Has Sponsored By
-          Flipkart and Amazon Because....
-        </h2>
-      </div>
-      <div style="margin-left: 15px">
-        <dt style="color: red; font-size: 25px">State:</dt>
-        <dd style="margin-left: 20px">
-          <b
-            >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Recusandae, doloremque?</b
-          >
-        </dd>
-        <br /><br />
-        <hr />
-        <dt style="color: red; font-size: 25px">Cricket:</dt>
-        <dd style="margin-left: 20px">
-          <b
-            >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Recusandae, doloremque?</b
-          >
-        </dd>
-        <br /><br />
-        <hr />
-        <dt style="color: red; font-size: 25px">Technology:</dt>
-        <dd style="margin-left: 20px">
-          <b
-            >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Recusandae, doloremque?</b
-          >
-        </dd>
-        <br /><br />
-        <hr />
-        <dt style="color: red; font-size: 25px">Economy:</dt>
-        <dd style="margin-left: 20px">
-          <b
-            >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Recusandae, doloremque?</b
-          >
-        </dd>
-        <br /><br />
-      </div>
+  <div style="display: flex">
+    <div style="width: 30%; margin: 10px">
+      <img src="./Images/sale.jpg" alt="sale" width="100%" height="300px" />
+      <br /><br />
+      <h2>
+        <span style="color: red">Shopping:</span>Weekend Sale Has Sponsored By
+        Flipkart and Amazon Because....
+      </h2>
     </div>
-    <br /><br /><br />
-    <div style="display: flex">
-      <div
-        style="
+    <div style="width: 30%; margin: 10px">
+      <img src="./Images/sale.jpg" alt="sale" width="100%" height="300px" />
+      <br /><br />
+      <h2>
+        <span style="color: red">Shopping:</span>Weekend Sale Has Sponsored By
+        Flipkart and Amazon Because....
+      </h2>
+    </div>
+    <div style="margin-left: 15px">
+      <dt style="color: red; font-size: 25px">State:</dt>
+      <dd style="margin-left: 20px">
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Recusandae, doloremque?</b>
+      </dd>
+      <br /><br />
+      <hr />
+      <dt style="color: red; font-size: 25px">Cricket:</dt>
+      <dd style="margin-left: 20px">
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Recusandae, doloremque?</b>
+      </dd>
+      <br /><br />
+      <hr />
+      <dt style="color: red; font-size: 25px">Technology:</dt>
+      <dd style="margin-left: 20px">
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Recusandae, doloremque?</b>
+      </dd>
+      <br /><br />
+      <hr />
+      <dt style="color: red; font-size: 25px">Economy:</dt>
+      <dd style="margin-left: 20px">
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Recusandae, doloremque?</b>
+      </dd>
+      <br /><br />
+    </div>
+  </div>
+  <br /><br /><br />
+  <div style="display: flex">
+    <div style="
           width: 30%;
           margin: 10px;
           border: 10px;
           background-color: gray;
           height: 400px;
           border: 4px solid black;
-        "
-      >
-        <div style="width: 100%; height: 100px">
-          <h1 style="text-align: center; margin-top: 20px">MAHA-FAST</h1>
-        </div>
-        <div style="height: 300px">
-          <marquee behavior="" direction="up">
-            <ul style="margin-left: 20px">
-              <li>
-                <span style="font-size: 26px">State:</span>Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Recusandae, doloremque?
-              </li>
-              <br />
-              <li>
-                <span style="font-size: 26px">Cricket:</span>Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Recusandae, doloremque?
-              </li>
-              <br />
-              <li>
-                <span style="font-size: 26px">Technology:</span>Lorem ipsum
-                dolor sit, amet consectetur adipisicing elit. Recusandae,
-                doloremque?
-              </li>
-              <br />
-              <li>
-                <span style="font-size: 26px">Economy:</span>Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Recusandae, doloremque?
-              </li>
-            </ul>
-          </marquee>
-        </div>
+        ">
+      <div style="width: 100%; height: 100px">
+        <h1 style="text-align: center; margin-top: 20px">MAHA-FAST</h1>
       </div>
-      <div
-        style="
+      <div style="height: 300px">
+        <marquee behavior="" direction="up">
+          <ul style="margin-left: 20px">
+            <li>
+              <span style="font-size: 26px">State:</span>Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Recusandae, doloremque?
+            </li>
+            <br />
+            <li>
+              <span style="font-size: 26px">Cricket:</span>Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Recusandae, doloremque?
+            </li>
+            <br />
+            <li>
+              <span style="font-size: 26px">Technology:</span>Lorem ipsum
+              dolor sit, amet consectetur adipisicing elit. Recusandae,
+              doloremque?
+            </li>
+            <br />
+            <li>
+              <span style="font-size: 26px">Economy:</span>Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Recusandae, doloremque?
+            </li>
+          </ul>
+        </marquee>
+      </div>
+    </div>
+    <div style="
           width: 40%;
           margin: 10px;
           border: 10px;
           background-color: gray;
           height: 400px;
           border: 4px solid black;
-        "
-      >
-        <table border="3" width="100%" height="400px">
-          <tr>
-            <th>Time</th>
-            <th>Information</th>
-          </tr>
-          <tr>
-            <td>8:40pm</td>
-            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-          </tr>
-          <tr>
-            <td>8:40pm</td>
-            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-          </tr>
-          <tr>
-            <td>8:40pm</td>
-            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-          </tr>
-          <tr>
-            <td>8:40pm</td>
-            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-          </tr>
-          <tr>
-            <td>8:40pm</td>
-            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-          </tr>
-          <tr>
-            <td>8:40pm</td>
-            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-          </tr>
-        </table>
-      </div>
-      <div
-        style="
+        ">
+      <table border="3" width="100%" height="400px">
+        <tr>
+          <th>Time</th>
+          <th>Information</th>
+        </tr>
+        <tr>
+          <td>8:40pm</td>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+        </tr>
+        <tr>
+          <td>8:40pm</td>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+        </tr>
+        <tr>
+          <td>8:40pm</td>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+        </tr>
+        <tr>
+          <td>8:40pm</td>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+        </tr>
+        <tr>
+          <td>8:40pm</td>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+        </tr>
+        <tr>
+          <td>8:40pm</td>
+          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+        </tr>
+      </table>
+    </div>
+    <div style="
           width: 30%;
           margin: 10px;
           border: 10px;
           background-color: gray;
           height: 400px;
           border: 4px solid black;
-        "
-      >
-        <div style="width: 100%; height: 100px">
-          <h1 style="text-align: center; margin-top: 20px">MAHA-FAST</h1>
-        </div>
-        <div style="height: 300px">
-          <marquee behavior="" direction="up">
-            <ul style="margin-left: 20px">
-              <li>
-                <span style="font-size: 26px">State:</span>Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Recusandae, doloremque?
-              </li>
-              <br />
-              <li>
-                <span style="font-size: 26px">Cricket:</span>Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Recusandae, doloremque?
-              </li>
-              <br />
-              <li>
-                <span style="font-size: 26px">Technology:</span>Lorem ipsum
-                dolor sit, amet consectetur adipisicing elit. Recusandae,
-                doloremque?
-              </li>
-              <br />
-              <li>
-                <span style="font-size: 26px">Economy:</span>Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Recusandae, doloremque?
-              </li>
-            </ul>
-          </marquee>
-        </div>
+        ">
+      <div style="width: 100%; height: 100px">
+        <h1 style="text-align: center; margin-top: 20px">MAHA-FAST</h1>
+      </div>
+      <div style="height: 300px">
+        <marquee behavior="" direction="up">
+          <ul style="margin-left: 20px">
+            <li>
+              <span style="font-size: 26px">State:</span>Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Recusandae, doloremque?
+            </li>
+            <br />
+            <li>
+              <span style="font-size: 26px">Cricket:</span>Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Recusandae, doloremque?
+            </li>
+            <br />
+            <li>
+              <span style="font-size: 26px">Technology:</span>Lorem ipsum
+              dolor sit, amet consectetur adipisicing elit. Recusandae,
+              doloremque?
+            </li>
+            <br />
+            <li>
+              <span style="font-size: 26px">Economy:</span>Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Recusandae, doloremque?
+            </li>
+          </ul>
+        </marquee>
       </div>
     </div>
-    <br />
-    <h1 style="text-align: center; margin-top: 10px; font-size: 40px">
-      Contact Us
-    </h1>
-    <br /><br /><br />
-    <div style="display: flex">
-      <div style="margin-left: 100px; width: 50%">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15135.891297166905!2d73.80274560130384!3d18.484890121233374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf9ec7efff6d%3A0xa6b851f01122aad2!2sDMart!5e0!3m2!1sen!2sin!4v1695384433104!5m2!1sen!2sin"
-          width="100%"
-          height="500"
-          style="border: 4px solid red; border-radius: 10px"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-      <div style="margin-left: 80px; width: 50%">
-        <h1><span style="color: red">Email:</span>shreyas81201@gmail.com</h1>
-        <br /><br />
-        <hr />
-        <br />
-        <h1><span style="color: red">Mobile:</span>9370703336</h1>
-        <br /><br />
-        <hr />
-        <br />
-        <h1>
-          <span style="color: red">Address:</span
-          >At/post:Rumbhodi,Tal:Akole,<br />Dist:Ahmednagar
-        </h1>
-        <br /><br />
-        <hr />
-      </div>
+  </div>
+  <br />
+  <h1 style="text-align: center; margin-top: 10px; font-size: 40px">
+    Contact Us
+  </h1>
+  <br /><br /><br />
+  <div style="display: flex">
+    <div style="margin-left: 100px; width: 50%">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15135.891297166905!2d73.80274560130384!3d18.484890121233374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf9ec7efff6d%3A0xa6b851f01122aad2!2sDMart!5e0!3m2!1sen!2sin!4v1695384433104!5m2!1sen!2sin"
+        width="100%" height="500" style="border: 4px solid red; border-radius: 10px" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
-    <br /><br />
-    <div class="Footer">
-      <h1 style="margin-left: 400px">
-        Copyright@2023 Designed By:
-        <span style="background-color: black; color: white">Shreyas Kale</span>
+    <div style="margin-left: 80px; width: 50%">
+      <h1><span style="color: red">Email:</span>shreyas81201@gmail.com</h1>
+      <br /><br />
+      <hr />
+      <br />
+      <h1><span style="color: red">Mobile:</span>9370703336</h1>
+      <br /><br />
+      <hr />
+      <br />
+      <h1>
+        <span style="color: red">Address:</span>At/post:Rumbhodi,Tal:Akole,<br />Dist:Ahmednagar
       </h1>
+      <br /><br />
+      <hr />
     </div>
-  </body>
+  </div>
+
+  <br /><br />
+  <div class="Footer">
+    <h1 style="margin-left: 400px">
+      Copyright@2023 Designed By:
+      <span style="background-color: black; color: white">Shreyas Kale</span>
+    </h1>
+  </div>
+</body>
+
 </html>
